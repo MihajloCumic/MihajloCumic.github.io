@@ -1,0 +1,345 @@
+:root {
+  --color-background-dark: #0d1b2a;
+  --color-highlight-orange: #fb8500;
+  --color-lightblue: #778da9;
+  --color-text-light: #e0e1dd;
+  --color-text-dark: #0b0c10;
+  --color-card-primary: #1b263b;
+  --color-blue-grey: #415a77;
+  --color-footer-text: #cad2c5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Strait", sans-serif;
+}
+
+p,
+h4,
+h5,
+label {
+  font-family: "Arimo", sans-serif;
+}
+
+@media screen and (min-width: 481px) {
+  h1 {
+    font-size: 39.06px;
+  }
+
+  p,
+  label {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 31px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  .price-prim {
+    font-size: 25px;
+  }
+
+  .price {
+    font-size: 12.8px;
+  }
+
+  footer,
+  footer h4,
+  footer h5 {
+    font-size: 12.8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p,
+  label {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 9px;
+  }
+
+  .price-prim {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 8px;
+  }
+
+  footer,
+  footer h4,
+  footer h5 {
+    font-size: 8px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: var(--color-background-dark);
+}
+
+#logo1 {
+  background-color: var(--color-highlight-orange);
+  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#logo1 img {
+  width: 40px;
+  background-color: var(--color-highlight-orange);
+}
+
+#company-name {
+  color: var(--color-highlight-orange);
+}
+
+#slider-container {
+  background-color: var(--color-background-dark);
+  border-style: solid;
+  border-top-color: var(--color-highlight-orange);
+  border-bottom-color: var(--color-highlight-orange);
+}
+
+#slider-elements {
+  background-color: var(--color-background-dark);
+}
+
+#slider-text {
+  background-color: var(--color-background-dark);
+}
+
+#slider-text h1 {
+  color: var(--color-lightblue);
+}
+
+#slider-text p {
+  color: var(--color-text-light);
+}
+
+#slider-img {
+  background-color: var(--color-background-dark);
+}
+
+.btn-arrow {
+  background-color: var(--color-background-dark);
+  border-color: var(--color-background-dark);
+}
+
+.btn-arrow i {
+  color: var(--color-highlight-orange);
+}
+
+.btn-arrow:hover {
+  background-color: var(--color-background-dark);
+  border-color: var(--color-highlight-orange);
+}
+
+.ponude-section {
+  background-color: var(--color-lightblue);
+  border-top-style: solid;
+  border-top-color: var(--color-highlight-orange);
+}
+
+.ponude-section .container {
+  padding: 10px;
+  border-bottom-color: var(--color-highlight-orange);
+  border-bottom-style: solid;
+}
+
+.card {
+  margin: 10px;
+}
+
+.my-card {
+  border-width: 3px;
+  border-color: var(--color-text-light);
+  background-color: var(--color-card-primary);
+  color: var(--color-text-light);
+}
+
+.my-card:hover {
+  border-color: var(--color-highlight-orange);
+  background-color: var(--color-text-light);
+  color: var(--color-text-dark);
+}
+
+.my-card-header {
+  border-bottom-style: none;
+  color: var(--color-highlight-orange);
+}
+
+.my-card:hover > .my-card-header {
+  background-color: var(--color-text-light);
+  color: var(--color-text-dark);
+}
+
+.my-card-footer {
+  border-top-color: var(--color-highlight-orange);
+}
+
+.btn-opsirnije {
+  border-color: var(--color-highlight-orange);
+  background-color: var(--color-highlight-orange);
+  color: var(--color-text-dark);
+}
+
+.btn-opsirnije:hover {
+  border-color: var(--color-card-primary);
+  background-color: var(--color-card-primary);
+  color: var(--color-text-light);
+}
+
+.domain-container {
+  background-color: var(--color-lightblue);
+  padding: 10px;
+}
+
+.domain-container .container {
+  padding: 10px;
+  border-bottom-color: var(--color-highlight-orange);
+  border-bottom-style: solid;
+}
+
+.domain-container h2 {
+  color: var(--color-highlight-orange);
+}
+
+.domain-container .card {
+  border-width: 3px;
+  border-color: var(--color-card-primary);
+  background-color: var(--color-card-primary);
+}
+
+.domain-container .card-header {
+  background-color: var(--color-text-light);
+  color: var(--color-text-dark);
+}
+
+.domain-container .card-footer {
+  background-color: var(--color-card-primary);
+  color: var(--color-text-light);
+}
+
+.search-domain {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.domen-group {
+  color: var(--color-text-dark);
+}
+
+.domen-group .form-control {
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color-text-dark);
+}
+
+.domen-group .btn {
+  border-width: 2px;
+  border-radius: 0px 4px 4px 0px;
+  border-color: var(--color-text-dark);
+  background-color: var(--color-highlight-orange);
+  color: var(--color-text-dark);
+}
+
+.domen-group .btn:hover {
+  border-color: var(--color-text-light);
+  background-color: var(--color-highlight-orange);
+  color: var(--color-text-light);
+}
+
+.last-section {
+  background-color: var(--color-lightblue);
+}
+
+.last-section-col {
+  padding: 10px;
+  background-color: var(--color-blue-grey);
+  color: var(--color-text-dark);
+  margin: 5px;
+}
+
+.last-section-col h2 {
+  color: var(--color-highlight-orange);
+}
+
+.footer-container {
+  background-color: var(--color-text-dark);
+  color: var(--color-footer-text);
+  border-top-style: solid;
+  border-top-color: var(--color-text-light);
+}
+
+.footer-container .col-4 {
+  padding: 10px;
+}
+
+.footer-container h4 {
+  text-decoration: underline;
+}
+
+.footer-end-row {
+  border-top-style: solid;
+  border-top-color: var(--color-footer-text);
+  border-top-width: 1px;
+}
+
+.index-body {
+  background-color: var(--color-card-primary);
+  color: var(--color-highlight-orange);
+}
+
+.btn-naruci {
+  width: 100%;
+  border-color: var(--color-highlight-orange);
+  background-color: var(--color-highlight-orange);
+  color: var(--color-text-dark);
+}
+
+.btn-naruci:hover {
+  border-color: var(--color-card-primary);
+  background-color: var(--color-card-primary);
+  color: var(--color-text-light);
+}
+
+.hosting-info p {
+  margin: 2px;
+}
